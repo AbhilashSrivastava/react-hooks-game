@@ -80,7 +80,7 @@ export const ShowComponent = props => {
     if (props.debugMode) {
       alert("Game Component=> ComponentWillUpdate Called!");
     }
-    setStatus("Component Will Receive Props");
+    setStatus("Component Will Update");
   }, [playerPositionX, playerPositionY]);
   return (
     <div className="game-container">
